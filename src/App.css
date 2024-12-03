@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: #ecdfed;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #343a40;
+  color: rgb(232, 232, 232);
+}
+
+footer .text-center {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
